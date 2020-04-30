@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+printf '\n=====\nnpm publish\n=====\n'
+npm publish --dry-run
+
+printf '\n=====\nnpm version\n=====\n'
+npm version 0.0.0 --allow-same-version
+
+printf '\n=====\nnpm install\n=====\n'
+npm install "."

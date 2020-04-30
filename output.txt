@@ -1,0 +1,100 @@
+
+=====
+npm publish
+=====
+
+> npm-scripts-exploration@0.0.0 prepare .
+> ./util/echo_green running prepare script
+
+running prepare script
+
+> npm-scripts-exploration@0.0.0 prepublishOnly .
+> ./util/echo_green running prepublishOnly script
+
+running prepublishOnly script
+
+> npm-scripts-exploration@0.0.0 prepack .
+> ./util/echo_green running prepack script
+
+running prepack script
+
+> npm-scripts-exploration@0.0.0 postpack .
+> ./util/echo_green running postpack script
+
+running postpack script
+npm notice
+npm notice 📦  npm-scripts-exploration@0.0.0
+npm notice === Tarball Contents ===
+npm notice 90B   util/echo_green
+npm notice 216B  hooks
+npm notice 882B  package.json
+npm notice 2.7kB output.txt
+npm notice === Tarball Details ===
+npm notice name:          npm-scripts-exploration
+npm notice version:       0.0.0
+npm notice package size:  1.1 kB
+npm notice unpacked size: 3.9 kB
+npm notice shasum:        11a7533024b25d1037643f7e8d82fc8a17ec9295
+npm notice integrity:     sha512-3Q15G1uMK8tGY[...]ouzS6tE6ViQqg==
+npm notice total files:   4
+npm notice
+
+> npm-scripts-exploration@0.0.0 publish .
+> ./util/echo_green running publish script
+
+running publish script
+
+> npm-scripts-exploration@0.0.0 postpublish .
+> ./util/echo_green running postpublish script
+
+running postpublish script
++ npm-scripts-exploration@0.0.0
+
+=====
+npm version
+=====
+
+> npm-scripts-exploration@0.0.0 preversion /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running preversion script
+
+running preversion script
+v0.0.0
+
+> npm-scripts-exploration@0.0.0 version /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running version script
+
+running version script
+
+> npm-scripts-exploration@0.0.0 postversion /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running postversion script
+
+running postversion script
+
+=====
+npm install
+=====
+
+> npm-scripts-exploration@0.0.0 preinstall /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running preinstall script
+
+running preinstall script
+
+> npm-scripts-exploration@0.0.0 install /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running install script
+
+running install script
+
+> npm-scripts-exploration@0.0.0 postinstall /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running postinstall script
+
+running postinstall script
+
+> npm-scripts-exploration@0.0.0 prepare /Users/philipe.navarro/Desktop/npm-scripts-exploration
+> ./util/echo_green running prepare script
+
+running prepare script
+npm WARN npm-scripts-exploration@0.0.0 No description
+npm WARN npm-scripts-exploration@0.0.0 No repository field.
+
+up to date in 0.55s
+found 0 vulnerabilities

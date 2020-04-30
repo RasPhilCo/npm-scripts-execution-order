@@ -1,0 +1,19 @@
+{
+  "name": "npm-scripts-execution-order",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "./util/echo_green running prepare script",
+    "prepack": "./util/echo_green running prepack script",
+    "postpack": "./util/echo_green running postpack script",
+    "prepublishOnly": "./util/echo_green running prepublishOnly script",
+    "publish": "./util/echo_green running publish script",
+    "postpublish": "./util/echo_green running postpublish script",
+    "preinstall": "./util/echo_green running preinstall script",
+    "install": "./util/echo_green running install script",
+    "postinstall": "./util/echo_green running postinstall script",
+    "preversion": "./util/echo_green running preversion script",
+    "version": "./util/echo_green running version script",
+    "postversion": "./util/echo_green running postversion script"
+  }
+}
